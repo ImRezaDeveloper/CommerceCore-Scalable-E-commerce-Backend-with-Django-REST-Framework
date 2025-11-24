@@ -24,7 +24,7 @@ class UserManager(BaseUserManager):
         birth and password.
         """
         user = self.create_user(
-            phone,
+            phone=phone,
             password=password,
         )
         user.is_admin = True

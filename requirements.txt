@@ -1,2 +1,3 @@
 drf-spectacular
 djangorestframework
+django~=5.2.8
